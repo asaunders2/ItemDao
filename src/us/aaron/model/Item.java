@@ -2,6 +2,11 @@ package us.aaron.model;
 
 public class Item {
     private int productNumber;
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
     private String name;
     private double price;
     private boolean featured;
